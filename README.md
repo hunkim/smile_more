@@ -10,6 +10,19 @@ If you get too close to your monitor (turtleneck), it will beep.
 python main.py
 ```
 
+## Output example
+```bsh
+('Distance: ', 28.0, 'Joy: ', 75, 'Anger: ', 0)
+('Distance avg: ', 28.0, 'Joy avg: ', 75, 'Anger avg: ', 0) count:  1
+
+Cannot find your face!
+
+('Distance: ', 21.0, 'Joy: ', 0, 'Anger: ', 0)
+('Distance avg: ', 68.66666666666667, 'Joy avg: ', 25, 'Anger avg: ', 0) count:  3
+
+Too close! (with beep)
+```
+
 ## Example output (need to be improved)
 ## Requirements
 - Webcam
