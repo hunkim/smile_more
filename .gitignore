@@ -1,0 +1,4 @@
+*.pyc
+*.jpg
+settings.py
+.idea
