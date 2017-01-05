@@ -17,13 +17,13 @@ def cascade_detect(image):
     gray_image = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     faces =  cascade.detectMultiScale(
         gray_image,
-        scaleFactor = 1.2, # change it to a small number to detect more
+        scaleFactor = 1.2, # change it to a small number to detect better
         minNeighbors = 5,
-        minSize = (30, 30),
+        minSize = (50, 50),
         flags = cv2.cv.CV_HAAR_SCALE_IMAGE
     )
 
-    # Add squeres for each face
+    # Add squares for each face
     for (x, y, w, h) in faces:
         distancei = (2 * 3.14 * 180) / (w + h * 360) * 1000 + 3
         distance = distancei * 2.54

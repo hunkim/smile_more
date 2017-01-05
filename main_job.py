@@ -37,9 +37,7 @@ def main_job():
         print("Distance avg: ", distance/count, "Joy avg: ", joy_score/count,
           "Anger avg: ", anger_score/count), "count: ", count;
     else:
-        print("Distance: ", dist, "Joy: ", j_s, "Anger: ", a_s);
-        print("Distance avg: ", distance / count, "Joy avg: ", joy_score / count,
-              "Anger avg: ", anger_score / count), "count: ", count;
+        print("Distance: ", dist, "Distance avg: ", distance / count, "count: ", count);
 
     # Adjust the distance for you
     # Modify values in settings
